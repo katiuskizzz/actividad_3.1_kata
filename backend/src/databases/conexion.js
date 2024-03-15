@@ -2,6 +2,8 @@ import { createPool } from "mysql2/promise";
 import dotenv from "dotenv";
 import { fileURLToPath } from "url";
 import path from "path";
+import cors from 'cors';
+
 
 // Obtener la ruta del archivo actual 
 const __filename = fileURLToPath(import.meta.url);
